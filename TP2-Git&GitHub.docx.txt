@@ -1,0 +1,134 @@
+﻿Ornela Condorí
+Enlace a proyecto: https://github.com/OrnelaCondori/Laboratorio1
+Git & GitHub
+1. Contestar las siguientes preguntas utilizando las guías y documentación proporcionada (Desarrollar las respuestas) :
+
+
+   * ¿Qué es GitHub?
+Es un servicio de alojamiento de repositorios en línea que permite tanto almacenar, administrar y compartir proyectos con otros
+   * ¿Cuáles son los beneficios de usar GitHub?
+Uno de los más destacados es su sistema de control de versiones, tiene un único servidor que contiene todos los archivos versionados, esto facilita el trabajo colaborativo; Facilitando el rastrear cambios en su código así como la creación de versiones del código. Además de que es gratis, seguro y fácil de utilizar por su interfaz intuitiva
+   * ¿Cómo crear un repositorio en GitHub?
+Una vez iniciada sesión, hay que presionar el botón “New”, después hay que seguir las instrucciones para nombrar y a configurar el repositorio (ej: si queremos que sea público o privado) y una vez hecho esto presionamos “Create Repository”
+   * ¿Cuáles son los tipos de ramas en Git?
+* Main/master: La razón de porque suele aparecer en varios repositorios es porque es creada por defecto por el comando "git init” y la gente no suele cambiarle el nombre
+* Feature: Se usa para desarrollar nuevas características
+* Release: Para preparar versiones estables para lanzamiento
+* Hotfix: Para corregir errores en la versión actualmente en producción
+* Development: Para integrar y probar características antes de fusionarlas a la rama principal
+   * ¿Cómo crear una rama en Git?
+Puedes usar el comando "git branch" seguido del nombre de la nueva rama. Por ejemplo, "$ git branch nombre_de_la_rama"
+   * ¿Cómo cambiar a una rama en Git?
+Puedes cambiar a una rama usando "git checkout nombre_de_la_rama"
+   * ¿Cómo fusionar ramas en Git?
+Puedes usar el comando “git merge” seguido del nombre de la rama que desea  fusionar con la actual
+   * ¿Cómo crear un commit en Git?
+Para crear un commit en Git, utiliza el comando "git commit -m 'mensaje del commit'".
+   * ¿Cómo enviar un commit a GitHub?
+Para enviar un commit a GitHub, utiliza el comando "git push" después de haber realizado el commit.
+   * ¿Qué es un repositorio remoto?
+Es una versión en línea de un repositorio de código donde se almacenan y comparten los cambios realizados, a diferencia de uno normal en el que se encuentra localmente en un sistema
+   * ¿Cómo agregar un repositorio remoto a Git?
+Utiliza el comando "git remote add nombre_repo_remoto URL_remoto"
+   * ¿Cómo empujar cambios a un repositorio remoto?
+Con el comando "git push nombre_repo_remoto nombre_rama"
+   * ¿Cómo tirar de cambios de un repositorio remoto?
+el comando "git pull nombre_repo_remoto nombre_rama”
+   * ¿Qué es un fork de repositorio?
+Es una copia independiente de un repositorio existente, es decir que permite realizar modificaciones sin afectar al repositorio original.
+   * ¿Cómo crear un fork de un repositorio?
+En un repositorio en GitHub, simplemente ve al repositorio que deseas forkear y haz clic en el botón "Fork" ubicado en la parte superior derecha de la página
+   * ¿Cómo enviar una solicitud de extracción (pull request) a un repositorio?
+En el repositorio original haz clic en el botón "Pull request", en la parte superior de la página. después, seguí las instrucciones para completar y enviar la solicitud de extracción
+   * ¿Cómo aceptar una solicitud de extracción?
+En la misma parte de “Pull request” selecciona la solicitud de extracción que deseas aceptar y haz clic en el botón "Merge" para fusionar los cambios en el repositorio.
+   * ¿Qué es una etiqueta en Git?
+Una etiqueta en Git es una referencia a un commit específico en la historia de un repositorio. Se utiliza para marcar versiones importantes o hitos en el proyecto.
+   * ¿Cómo crear una etiqueta en Git?
+Usamos el comando "git tag nombre_etiqueta". Si deseas agregar un mensaje a la etiqueta, puedes usar el comando "git tag -a nombre_etiqueta -m 'mensaje'
+   * ¿Cómo enviar una etiqueta a GitHub?
+Para enviar una etiqueta a GitHub, utiliza el comando "git push nombre_repo_remoto nombre_etiqueta"
+   * ¿Qué es un historial de Git?
+Es una lista de todos commits hechos, también detalla el autor, fecha y el mensaje asociado
+   * ¿Cómo ver el historial de Git?
+Utiliza el comando "git log"
+   * ¿Cómo buscar en el historial de Git?
+Con el comando "git log --grep=buscar". Reemplaza "buscar" con el texto que deseas buscar, y Git solo va mostrar los que coincidan.
+   * ¿Cómo borrar el historial de Git?
+El comando que se puede utilizar es "git reset"
+   * ¿Qué es un repositorio privado en GitHub?
+Aquellos que no deseas compartir públicamente, solo puede ser visto y modificado por los colaboradores que tengan permiso para acceder.
+   * ¿Cómo crear un repositorio privado en GitHub?
+Cuando estás creando uno desde “New” dentro de las opciones de configuración, puedes elegir entre privado/público
+   * ¿Cómo invitar a alguien a un repositorio privado en GitHub?
+Hay que enviar una invitación: Desde “setting” selecciona “Manage access” e ingresa el nombre de usuario o la dirección de correo electrónico.
+   * ¿Qué es un repositorio público en GitHub?
+Son los que están disponibles para que cualquier persona los vea, clone y haga contribuciones, mediante solicitudes de extracción.
+   * ¿Cómo crear un repositorio público en GitHub?
+Cuando estás creando uno desde “New” dentro de las opciones de configuración, puedes elegir entre privado/público
+   * ¿Cómo compartir un repositorio público en GitHub?
+Simplemente comparte el URL de este.
+   * ¿Qué es un repositorio de código en GitHub?
+Es el espacio donde se almacena y gestiona el código fuente de un proyecto, puede contener archivos, carpetas, ramas, etiquetas y registros de cambios.
+   * ¿Cómo crear un repositorio de código en GitHub?
+En realidad, no hace falta especificar, se crea un repositorio de manera normal, pero la diferencia está en el tipo de archivos que este va a contener.
+   * ¿Cómo compartir un repositorio de código en GitHub?
+También se utiliza la URL para compartirlo
+   * ¿Qué es un repositorio de documentación en GitHub?
+Un espacio donde se almacena y gestiona la documentación de un proyecto. Puede contener archivos Markdown, archivos de texto o cualquier otro formato utilizado para crear documentación, permiten que los equipos colaboren y mantengan la documentación actualizada de manera centralizada y accesible para todos los colaboradores.
+   * ¿Cómo crear un repositorio de documentación en GitHub?
+En el botón "New" en la página principal. Luego, proporciona un nombre para el repositorio y selecciona la opción "Initialize this repository with a README". Esto creará un repositorio con un archivo README.md donde puedes escribir tu documentación utilizando el formato Markdown
+   * ¿Cómo compartir un repositorio de documentación en GitHub?
+También se utiliza la URL para compartirlo
+   * ¿Qué es un repositorio de proyecto en GitHub?
+Es el espacio donde se almacenan y gestionan los archivos y el código fuente de un proyecto
+   * ¿Cómo usar Git para trabajar con otros?
+Se suele descargar una copia del repositorio y cada colaborador realiza sus cambios en sus ramas locales, agrega y confirma sus cambios, lo conveniente es sincronizarse con el repositorio remoto antes de enviar estos, y principalmente comunicarse y coordinar con los demás miembros.
+
+
+2. Realizar la siguiente actividad:
+
+
+
+
+   * Crear un repositorio.
+
+
+      * Dale un nombre al repositorio.
+      * Elije el repositorio sea público.
+      * Inicializa el repositorio con un archivo.
+
+
+   * Agregando un Archivo
+
+
+      * Crea un archivo simple, por ejemplo, "mi-archivo.txt".
+      * Realiza los comandos git add . y git commit -m "Agregando mi-archivo.txt" en la línea de comandos.
+      * Sube los cambios al repositorio en GitHub con git push origin main (o el nombre de la rama correspondiente)
+
+
+   * Creando Branchs
+
+
+      * Crear una Branch
+      * Realizar cambios o agregar un archivo
+      * Subir la Branch
+
+
+
+
+
+
+Entrega:
+
+
+* Responder las preguntas en el documento de Word.
+
+
+* Colocar Apellido y Nombre.
+
+
+* Copiar el enlace al proyecto de GitHub.
+
+
+Importante: La entrega de este trabajo se realizará de forma individual.
