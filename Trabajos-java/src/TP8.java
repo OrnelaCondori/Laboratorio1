@@ -238,6 +238,25 @@ public class TP8{
         }
         return minimos;
     }
+    //18
+    public static int[][] productoMatrices (int[][] matriz, int[][]matriz2){
+        int filas = matriz.length;
+        int columnas = matriz[0].length;
+        int filas2 = matriz2.length;
+        int columnas2 = matriz2[0].length;
+        int[][] resultado = new int[filas][columnas];
+
+        if (filas!=columnas2 || columnas!=filas2){
+            return null;
+        }else{
+            for (int i = 0; i < filas; i++) {
+                for (int j = 0; j < columnas; j++) {
+                    resultado[i][j] = matriz[i][j]*matriz2[j][i];
+                }
+            }
+        }
+        return resultado;
+    }
 
 
     public static void main(String[] args) throws Exception {
@@ -355,5 +374,14 @@ public class TP8{
             System.out.println("Mínimo de la fila " + (i+1) + ": " + minimos[i]);
         }
 
+        //18 Calcular el producto de matrices de diferentes tamaños
+        int[][] matriz3 = {
+            {1, 2},
+            {4, 5},
+            {6, 7},
+        };
+        System.out.println("El producto de matrices es: ");
+        int [][] prodMatriz = productoMatrices(matriz1, matriz3);
+        imprimirMatriz(prodMatriz);
     }
 }
