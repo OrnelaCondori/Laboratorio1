@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 //Uso de objetos - arrayList - Metodos - arrays
 
-//El código que hice utiliza objetos, pero en caso de que fuesee necesario hubiera utliado un metodo en el main, para determinar si es o no mutante
+//El código que hice utiliza objetos, pero en caso de que no fuesee necesario hubiera utliado un metodo en el main, para determinar si es o no mutante
 public class Main {
     //Funcion para verificar que los datos ingresados por el usuario sean correctos
     public static boolean validacionInformacionGenetica(String cadena){
